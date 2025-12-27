@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://prelaunch.lamigo.lk'),
   title: "LamiGo - Coming Soon",
-  description: "Last-mile delivery optimisation platform for Sri Lanka. Coming soon.",
+  description: "Last-mile delivery optimisation platform transforming logistics across Sri Lanka. Coming soon.",
 };
 
 export default function RootLayout({
